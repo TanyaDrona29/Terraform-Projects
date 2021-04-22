@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIA2B6CJ55LZYDDTFG2"
-  secret_key = "LV0DMNehxKi43aetXqTArYA16lVNloDAmbDZneG8"
+  access_key = "type in the access key for your aws account"
+  secret_key = "type in the secret key for your aws account"
 }
 
 resource "aws_instance" "ec2-automation" {
